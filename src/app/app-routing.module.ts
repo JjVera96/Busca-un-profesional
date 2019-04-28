@@ -7,7 +7,8 @@ const routes: Routes = [
   { path: 'capacitate', loadChildren: './capacitate/capacitate.module#CapacitatePageModule' },
   { path: 'configuracion', loadChildren: './configuracion/configuracion.module#ConfiguracionPageModule' },
   { path: 'buscar-profesional', loadChildren: './buscar-profesional/buscar-profesional.module#BuscarProfesionalPageModule' },
-  { path: 'login', loadChildren: './login/login.module#LoginPageModule' }
+  { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
+  { path: 'filtrar-profesional', loadChildren: './filtrar-profesional/filtrar-profesional.module#FiltrarProfesionalPageModule' }
 ];
 
 @NgModule({

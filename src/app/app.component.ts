@@ -17,7 +17,7 @@ export class AppComponent {
     },
     {
       title: 'BUSCA UN PROFESIONAL',
-      url: '/buscar-profesional',
+      url: '/filtrar-profesional',
       icon: '/assets/icon/buscar-profesional.svg'
     },
     {

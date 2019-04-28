@@ -8,7 +8,7 @@
 </ion-header>
 
 <ion-content>
-  <ion-card class='Top'>
+  <ion-card class='Top ion-no-margin'>
     <ion-card-content>
       <ion-row align-items-center>
         <ion-col size="4">
@@ -24,33 +24,44 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-row align-items-center>
+  <ion-row >
     <ion-col size="6">
-      <ion-card>
+      <ion-card class="CardGray">
         <ion-card-content>
           <p>Soy un maestro de obra que lleva en el area mas de 20 años.</p>
           <p>Desarrollo obra negra, supervisión de obra e instalaciones de infraestructura metalica.</p>
         </ion-card-content>
       </ion-card>
-      <ion-card>
+      <ion-card class="CardGray">
           <ion-card-content>
-              <h2>Andrés Parra</h2>
-              <p>Muy buen trabajo.</p>
-              <h2>Sofia Mora</h2>
-              <p>Todo muy ordenado y a tiempo.</p>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <h2></h2>
+            <p><b>Andrés Parra</b><br>Muy buen trabajo.</p>
+            <p><b>Sofia Mora</b><br>Todo muy ordenado y a tiempo.</p>
           </ion-card-content>
         </ion-card>
-        <ion-card>
+        <ion-card class="CardGray">
             <ion-card-content>
+              <ion-icon size="large" class="ion-padding-horizontal" name="logo-whatsapp"></ion-icon>
+              <ion-icon size="large" class="ion-padding-horizontal" name="logo-facebook"></ion-icon>
+              <ion-icon size="large" class="ion-padding-horizontal" name="logo-googleplus"></ion-icon>
+              <ion-icon size="large" class="ion-padding-horizontal" name="call"></ion-icon>
             </ion-card-content>
           </ion-card>
     </ion-col>
     <ion-col size="6">
-      <ion-img src="/assets/icon/img-edificio-1.jpg"></ion-img>
-      <ion-img src="/assets/icon/img-edificio-2.jpg"></ion-img>
-      <ion-img src="/assets/icon/img-edificio-3.jpg"></ion-img>
+      <ion-img class="ion-padding-vertical" src="/assets/icon/img-edificio-1.jpg"></ion-img>
+      <ion-img class="ion-padding-vertical" src="/assets/icon/img-edificio-2.jpg"></ion-img>
+      <ion-img class="ion-padding-vertical" src="/assets/icon/img-edificio-3.jpg"></ion-img>
     </ion-col>
   </ion-row>
-
-
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar color="primary">
+  </ion-toolbar>
+</ion-footer>

@@ -1,12 +1,117 @@
 <ion-header>
-    <ion-toolbar color="primary">
-      <ion-buttons slot="start">
-        <ion-menu-button></ion-menu-button>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+        <ion-back-button defaultHref="filtrar-profesional"></ion-back-button>
       </ion-buttons>
-      <ion-title>Busca un profesional</ion-title>
-    </ion-toolbar>
+    <ion-title>Busca un profesional</ion-title>
+  </ion-toolbar>
   </ion-header>
 
 <ion-content>
-
+  <ion-row class="ion-align-items-center">
+    <ion-col size="6">
+      <ion-img src="/assets/icon/contrato.svg" aria-colcount=""></ion-img>
+      <ion-card class="CardGray">
+        <ion-card-content class="ion-padding-vertical">
+          <ion-icon src="/assets/icon/usuario.svg" size="large" aria-colcount=""></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="CardGray">
+        <ion-card-content>
+          <h2>Descripción</h2>
+          <p>Busco un arquitecto para la remodelación de un baño de 3x2 m presupuesto 5.000.000 $ 
+            adjunto planos con medidas y fotografias de estado actual y unos referentes.</p>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="CardGray">
+        <ion-icon color="primary" class="ion-padding-horizontal" size="large" name="locate"></ion-icon>
+        <ion-icon class="ion-padding-horizontal" size="large" name="folder"></ion-icon>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6">
+      <ion-card class="CardGray">
+        <ion-card-content class="ion-no-padding">
+          <ion-item class="CardGray" lines="none">
+            <ion-img class="ion-no-padding" style="width: 40px; height: 40px;" slot="start" src="/assets/icon/usuario.svg"></ion-img>
+            <div class="talk-bubble round">
+              <ion-label class="ion-no-padding talktext"> 5.000.000 $ </ion-label>
+            </div>
+          </ion-item>
+          <ion-item class="CardGray" lines="none">
+            <ion-img style="width: 40px; height: 40px;" slot="end" src="/assets/icon/perfil-azul-estrella.jpeg"></ion-img>
+            <div class="talk-bubble round">
+              <ion-label class="talktext"> 4.500.000 $ </ion-label> 
+            </div>
+          </ion-item>
+          <ion-item class="CardGray" lines="none">
+            <ion-img style="width: 40px; height: 40px;" slot="end" src="/assets/icon/perfil-verde.jpeg"></ion-img>
+            <div class="talk-bubble round">
+              <ion-label class="talktext"l> 4.500.000 $ </ion-label>
+            </div>
+          </ion-item>
+          <ion-item class="CardGray" lines="none">
+            <ion-img style="width: 40px; height: 40px;" slot="end" src="/assets/icon/perfil-azul-estrella.jpeg"></ion-img>
+            <div class="talk-bubble round">
+              <ion-label class="talktext"> 4.600.000 $ </ion-label>
+            </div>
+          </ion-item>
+          <ion-item class="CardGray" lines="none">
+            <ion-img style="width: 40px; height: 40px;" slot="end" src="/assets/icon/perfil-rosa.jpeg"></ion-img>
+            <div class="talk-bubble round">
+              <ion-label class="talktext"> 4.650.000 $ </ion-label>
+            </div>
+          </ion-item>
+          <ion-item class="CardGray" lines="none">
+            <ion-img style="width: 40px; height: 40px;" slot="end" src="/assets/icon/perfil-amarillo.jpeg"></ion-img>
+            <div class="talk-bubble round">
+              <ion-label class="talktext"> 4.700.000 $ </ion-label>
+            </div>
+          </ion-item>
+          <ion-item class="CardGray" lines="none">
+            <ion-img style="width: 40px; height: 40px;" slot="end" src="/assets/icon/perfil-azul-estrella.jpeg"></ion-img>
+            <div class="talk-bubble round">
+              <ion-label class="talktext"> 5.000.000 $ </ion-label>
+            </div>
+          </ion-item>
+          <ion-item class="CardGray" lines="none">
+            <ion-img style="width: 40px; height: 40px;" slot="end" src="/assets/icon/perfil-rosa.jpeg"></ion-img>
+            <div class="talk-bubble round">
+              <ion-label class="talktext"> 5.000.000 $ </ion-label>
+            </div>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="CardGray">
+        <ion-card-content>
+          <ion-title class="ion-text-center" color="danger"> 28:37:12 </ion-title>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col>
+      <ion-card class="CardGray">
+        <ion-item class="CardGray">
+          <div class="RadiusWhite">
+            <ion-label class="Pesos">
+              5.000.000 $
+            </ion-label>
+          </div>
+          <ion-button color="primary">
+            <span text-capitalize>Ofertar</span>
+          </ion-button>
+        </ion-item>
+      </ion-card>
+    </ion-col>
+  </ion-row>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar color="primary">
+  </ion-toolbar>
+</ion-footer>
